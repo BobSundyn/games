@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Mitos Games</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  	<!--meu CSS-->
+  	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<!--titulo da pagina-->
+	<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+  	
+</head>
+<body>
+
+	<div class="container-fluid">
+  		<p id="tituloIndex" class="font-weight-bold text-center display-2">Mitos e histórias no mundo dos games</p>
+  		<!--imagens-->
+  		<div id="demo" class="carousel slide" data-ride="carousel">
+		  <ul class="carousel-indicators">
+		    <li data-target="#demo" data-slide-to="0" class="active"></li>
+		    <li data-target="#demo" data-slide-to="1"></li>
+		    <li data-target="#demo" data-slide-to="2"></li>
+		  </ul>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+			    <a href="ac.html">	
+			      <img src="imagens/acbanner.jpg" alt="ac" width="1100" height="500">
+			      <div class="carousel-caption">
+			        <h1  id="ac">Assassin's Creed</h1>
+			        <p>Cruzadas, Renascença, Guerra Civil...</p>
+			      </div>
+			    </a>     
+		    </div>
+		    <div class="carousel-item">
+		    	<a href="gow.html">	
+		      <img src="imagens/bannergow.jpg" alt="gow" width="1000" height="100">
+		      <div class="carousel-caption">
+		        <h1 class="text-body" id="gow">God of War</h1>
+		        <p class="text-body">Grega e Nórdica</p>
+		      </div>   
+		    </div>
+		    <div class="carousel-item">
+		    	<a href="lotr.html">	
+		      <img src="imagens/lordbanner.jpg" alt="lotr" width="1100" height="500">
+		      <div class="carousel-caption">
+		        <h1 class="text-body" id="lotr">O Senhor dos Anéis</h1>
+		        <p class="text-body">Alemã, Católica...</p>
+		      </div>   
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+		    <span class="carousel-control-prev-icon"></span>
+		  </a>
+		  <a class="carousel-control-next" href="#demo" data-slide="next">
+		    <span class="carousel-control-next-icon"></span>
+		  </a>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/logica.js"></script>
+
+</body>
+</html>
